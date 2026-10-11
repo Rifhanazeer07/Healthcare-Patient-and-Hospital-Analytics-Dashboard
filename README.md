@@ -42,3 +42,4 @@ To use data cleaning, analysis, and visualization techniques to identify meaning
 ## Dashboard Preview
 
 ![Healthcare Dashboard](Dashboard-1.png)
+![Healthcare Dashboard 2](Dashboard-2.png)
