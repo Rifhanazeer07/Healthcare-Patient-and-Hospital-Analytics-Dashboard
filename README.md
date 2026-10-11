@@ -1,4 +1,4 @@
-# Healthcare Patient & Treatment Analytics Dashboard
+# Healthcare Patient & Hospital Analytics Dashboard
 
 A healthcare analytics project using Python, Pandas, Jupyter Notebook, and Tableau to clean, analyze, and visualize healthcare data.
 
