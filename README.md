@@ -38,3 +38,8 @@ This project analyzes healthcare datasets to explore patient demographics, hospi
 ## Objective
 
 To use data cleaning, analysis, and visualization techniques to identify meaningful insights from healthcare data.
+
+## Dashboard Preview
+
+![Healthcare Dashboard](Dashboard-1.png)
+![Healthcare Dashboard 2](Dashboard-2.png)
