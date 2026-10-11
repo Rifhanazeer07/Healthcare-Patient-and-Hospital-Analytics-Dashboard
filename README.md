@@ -1,54 +1,76 @@
-# Healthcare Patient & Hospital Analytics Dashboard
+# Healthcare Patient and Hospital Analytics Dashboard
 
-A healthcare analytics project using Python, Pandas, Jupyter Notebook, and Tableau to clean, analyze, and visualize healthcare data.
+A healthcare data analytics project using Python, Pandas, Jupyter Notebook, and Tableau to clean, analyze, and visualize healthcare data.
 
 ## Project Overview
 
-This project explores healthcare data to understand patient demographics, hospital admissions, diagnoses, hospital performance, patient outcomes, and healthcare costs. Python and Pandas were used to clean and prepare datasets before developing interactive visualizations in Tableau.
+This project focuses on exploring healthcare data to understand patient demographics, hospital admissions, diagnoses, hospital performance, readmissions, and healthcare costs.
+
+Python and Pandas were used to clean and prepare the datasets, and Tableau was used to develop dashboards that present healthcare metrics and trends.
+
+## Dataset Source
+
+The dataset was obtained from Kaggle.
+
+- **Dataset:** [India Hospital Readmission Dataset (2015–2024)](https://www.kaggle.com/datasets/digutlaranjithkumar/india-hospital-readmission-dataset-20152024/data)
+- **Data Preparation:** The datasets were cleaned and prepared using Python and Pandas before being used for analysis and visualization in Tableau.
 
 ## Project Workflow
 
-1. **Data Cleaning:** Used Python and Pandas to inspect, clean, and prepare healthcare datasets.
-2. **Data Preparation:** Saved the cleaned datasets as CSV files for further analysis.
-3. **Data Analysis:** Explored healthcare data using Jupyter Notebooks.
-4. **Data Visualization:** Developed Tableau dashboards to present key patterns and insights.
+1. **Data Collection:** Obtained the healthcare dataset from Kaggle.
+2. **Data Cleaning:** Used Python and Pandas to inspect, clean, and prepare the datasets.
+3. **Data Preparation:** Exported the cleaned datasets as CSV files.
+4. **Data Analysis:** Used Jupyter Notebooks to explore and prepare the data.
+5. **Data Visualization:** Developed Tableau dashboards to present healthcare metrics and trends.
 
 ## Dashboard Analysis
 
-The dashboards cover the following areas:
+The Tableau dashboards cover the following analyses:
 
-- Patient demographics by age group and gender
-- Hospital admissions by admission type
-- Length of stay by ward
+- Patient count by age group
+- Patient distribution by gender
+- Patient distribution across India
+- Average length of stay by ward
 - Hospital performance analysis
-- Diagnosis category distribution
-- Patient readmissions and outcomes
-- Healthcare costs and billing analysis
-- Geographic distribution of hospitals in India
+- Admissions by diagnosis category
+- 30-day readmission rate by admission type
+- Average healthcare cost by cost category
+- Admissions count by type
 
 ## Dashboard Previews
 
 ### Dashboard 1
 
-![Healthcare Dashboard 1](Dashboard-1.png)
+![Healthcare Patient and Hospital Analytics Dashboard 1](Dashboard-1.png)
 
 ### Dashboard 2
 
-![Healthcare Dashboard 2](Dashboard-2.png)
+![Healthcare Patient and Hospital Analytics Dashboard 2](Dashboard-2.png)
 
 ## Tools and Technologies
 
 - **Python** – Data cleaning and preparation
 - **Pandas** – Data manipulation and analysis
 - **Jupyter Notebook** – Data-cleaning workflow
-- **Tableau** – Dashboard development and visualization
-- **CSV** – Prepared datasets
+- **Tableau** – Dashboard development and data visualization
+- **CSV** – Storage of cleaned datasets
 
 ## Project Files
 
-The `Data/` folder contains Jupyter Notebooks and cleaned CSV datasets for five categories:
+### Tableau Workbook
 
-| Category | Notebook | Cleaned Dataset |
+- `Healthcare_Patient_Hospital_Analytics.twbx` – Packaged Tableau workbook containing the dashboards.
+
+### Dashboard Images
+
+- `Dashboard-1.png` – Dashboard 1 preview
+- `Dashboard-2.png` – Dashboard 2 preview
+
+### Data Folder
+
+The `Data/` folder contains five Jupyter Notebooks and their corresponding cleaned CSV datasets.
+
+| Dataset | Jupyter Notebook | Cleaned CSV |
 |---|---|---|
 | Admissions | `admissions.ipynb` | `admissions_cleaned.csv` |
 | Billing | `billing.ipynb` | `billing_cleaned.csv` |
@@ -56,21 +78,15 @@ The `Data/` folder contains Jupyter Notebooks and cleaned CSV datasets for five 
 | Hospitals | `hospitals.ipynb` | `hospitals_cleaned.csv` |
 | Patients | `patients.ipynb` | `patients_cleaned.csv` |
 
-Additional files:
-
-- `Healthcare_Patient_Hospital_Analytics.twbx` – Packaged Tableau workbook
-- `Dashboard-1.png` – Dashboard preview
-- `Dashboard-2.png` – Dashboard preview
-
 ## Skills Demonstrated
 
 - Healthcare data cleaning and preparation
 - Exploratory data analysis
 - Data manipulation using Python and Pandas
-- Healthcare KPI and trend analysis
-- Data visualization and dashboard development
-- Communicating analytical findings through visualizations
+- Healthcare metrics and trend analysis
+- Tableau dashboard development
+- Data visualization and analytical reporting
 
 ## Project Objective
 
-To apply data cleaning, analysis, and visualization techniques to healthcare datasets and present meaningful information about patients, hospitals, treatments, and costs.
+To apply data cleaning, analysis, and visualization techniques to healthcare data and present meaningful insights into patient demographics, hospital admissions, hospital performance, readmissions, and healthcare costs.
